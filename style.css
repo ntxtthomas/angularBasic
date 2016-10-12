@@ -26,15 +26,31 @@
 	.rightCol {
 		width: 475px;
 	}
-button {
-	width: 80px;
+input {
+	width: 250px;
 	height: 35px;
-	background: lightblue;
+	margin-bottom: 7px;
+}
+.submit {
+	width: 85px;
+	height: 35px;
+	margin-bottom: 7px;
+	background: green;
+	color: white;
+	border-radius: 4px;
+}
+	.submit:hover {
+		font-weight: 900;
+	}
+button {
+	width: 85px;
+	height: 35px;
+	background: black;
 	color: white;
 	border-radius: 4px;
 }
 	button:hover {
-		font-weight: 600;
+		font-weight: 900;
 	}
 .over-thirty {
 	background: lightgrey;
@@ -54,11 +70,11 @@ li {
 }
 	li span {
 		display: inline-block;
-		line-height: 40px;
+		line-height: 50px;
 	}
 	li img {
-		width: 39px;
-		height: 39px;
+		width: 49px;
+		height: 49px;
 		margin-right: 10px;
 		border-radius: 50%;
 	}
@@ -80,3 +96,9 @@ li {
 	  transform:translateY(15px);
 	  opacity:0;
 	}
+.about_title {
+	margin-top: 35px;
+}
+.row_lorem {
+	margin-top: 7px;
+}
